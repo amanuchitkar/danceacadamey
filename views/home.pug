@@ -1,0 +1,42 @@
+extends base.pug
+block scripts 
+    script(src="../static/index.js")
+block styles 
+     style
+         include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to Pranv's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h1 Our Mission's
+        div#mission
+            div.card 
+                h3 Dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/png-2.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi hic dolorem quo aspernatur molestiae, enim architecto possimus labore, harum ad consequatur sunt 
+            div.card 
+                h3 Dance the way you like
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/png-3.png")
+                div.card-content 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi hic dolorem quo aspernatur molestiae, enim architecto possimus labore, harum ad consequatur sunt 
+            div.card 
+                h3 Expert Teaching
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/png-4.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi hic dolorem quo aspernatur molestiae, enim architecto possimus labore, harum ad consequatur sunt 
+    section#sponsorsSection
+        h1 Our Sponsors
+        div.sponsor-img 
+            img(src="/static/img/apple png.png", alt="")
+            img(src="/static/img/png-5.png", alt="")
+            img(src="/static/img/png-6.png", alt="")
+            img(src="/static/img/png-7.png", alt="")
